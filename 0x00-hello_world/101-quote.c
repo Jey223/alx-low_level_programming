@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include <unistd.h>
 
-/*
- * main -Print standard error
+/**
+ * main - Write out standardoutput (stdout)
  *
- * Return: Always 0 which is success
+ * Return: Always 0 (success)
  */
 
 int main(void)
