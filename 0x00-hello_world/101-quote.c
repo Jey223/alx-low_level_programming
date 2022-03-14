@@ -1,9 +1,10 @@
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * main - Write to stdout
  *
- * Return: Always 0 (success)
+ * Return: Always 1 (success)
  */
 
 int main(void)
