@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int i, fibonacci[50], sum = 0;
+	int i;
+	long int fibonacci[50], sum = 2;
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
@@ -20,7 +21,7 @@ int main(void)
 		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 4000000)
 			sum += fibonacci[i];
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
